@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushaf Rasein | Cyber Security Analyst</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Modern Animated Mesh Background -->
+    <div class="mesh-bg"></div>
+
+    <!-- Interactive Network Canvas -->
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand cyber-brand" href="#">
+                <span class="icon-bx"><i class="fa-solid fa-shield-virus"></i></span>
+                MUSHAF<span class="fw-light">.sys</span>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-toggle="target=" #navbarNav">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#home">Echo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Whoami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Payloads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pentesting">Vectors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Exploits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Ping</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 hero-text-col position-relative z-2">
+                    <div class="badge-glass mb-3">
+                        <span class="status-dot"></span> SECURE CONNECTION ESTABLISHED
+                    </div>
+                    <h1 class="hero-title">
+                        Securing The Net, <br>
+                        <span class="text-gradient">One Vulnerability</span><br>
+                        At A Time.
+                    </h1>
+                    <p class="hero-subtitle mt-4 mb-5">
+                        I'm <strong class="text-white">Mushaf Rasein</strong>. An Ethical Hacker and Cyber Analyst based
+                        in India. I don't just build the web; I break it to secure it.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contact" class="btn-cyber-primary">Initialize Contact <i
+                                class="fa-solid fa-arrow-right ms-2"></i></a>
+                        <a href="#projects" class="btn-cyber-secondary">View Exploits</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-5 mt-lg-0 position-relative z-2">
+                    <!-- Modern Glass Terminal -->
+                    <div class="glass-terminal tilt-element">
+                        <div class="terminal-header d-flex justify-content-between align-items-center">
+                            <div class="window-controls d-flex gap-2">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="terminal-title">bash - root@mushaf - 80x24</div>
+                            <div class="terminal-icon"><i class="fa-solid fa-terminal"></i></div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="term-line"><span class="term-prompt">root@mushaf:~$</span> whoami</div>
+                            <div class="term-output">Cyber Security Analyst | Penetration Tester</div>
+
+                            <div class="term-line mt-3"><span class="term-prompt">root@mushaf:~$</span> cat status.txt
+                            </div>
+                            <div class="term-output">
+                                <span class="text-info">Location:</span> Chennai, India<br>
+                                <span class="text-info">Education:</span> Dip. Cyber Security (LiveWire)<br>
+                                <span class="text-info">Degree:</span> Graduate from AVC College
+                            </div>
+
+                            <div class="term-line mt-3 active-line"><span class="term-prompt">root@mushaf:~$</span>
+                                <span class="typing-text"></span><span class="cursor">_</span></div>
+                        </div>
+                    </div>
+                    <!-- Decorative Elements -->
+                    <div class="glow-orb primary-orb"></div>
+                    <div class="glow-orb secondary-orb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section position-relative z-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="glass-card reveal-up">
+                        <div class="row align-items-center">
+                            <div class="col-md-5 text-center mb-4 mb-md-0 relative">
+                                <div class="profile-hexagon-container mx-auto">
+                                    <div class="hexagon-border"></div>
+                                    <div class="hexagon-inner">
+                                        <i class="fa-solid fa-user-ninja fa-4x text-gradient"></i>
+                                    </div>
+                                </div>
+                                <h3 class="mt-4 font-outfit fw-bold text-white">Mushaf Rasein</h3>
+                                <p class="text-muted">Cyber Analyst & Pen-Tester</p>
+                            </div>
+                            <div class="col-md-7 ps-md-4 border-start-md">
+                                <h2 class="section-title mb-4">The Mind Behind The <span
+                                        class="text-gradient">Console</span></h2>
+                                <p class="text-light-muted lh-base">
+                                    I am an Ethical Hacker deeply passionate about understanding how systems work, and
+                                    more importantly, how they break. While web developers build applications, I analyze
+                                    them from an attacker's perspective to fortify their defenses.
+                                </p>
+                                <p class="text-light-muted lh-base">
+                                    Currently expanding my offensive security capabilities through a Diploma in Cyber
+                                    Security at LiveWire India. My background provides a mature, methodical approach to
+                                    threat analysis, traffic monitoring, and vulnerability assessment.
+                                </p>
+                                <div class="contact-badges mt-4 d-flex flex-wrap gap-2">
+                                    <span class="badge-cyber"><i class="fa-solid fa-envelope text-purple me-2"></i>
+                                        mushafpersonal29@gmail.com</span>
+                                    <span class="badge-cyber"><i class="fa-solid fa-phone text-purple me-2"></i> +91
+                                        8270495412</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section position-relative z-2">
+        <div class="container">
+            <div class="text-center mb-5 reveal-up">
+                <div class="badge-glass d-inline-block mb-3">SYSTEM CAPABILITIES</div>
+                <h2 class="section-title display-5">Technical <span class="text-gradient">Arsenal</span></h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-xl-2 col-md-4 col-sm-6 text-center reveal-up stagger-1">
+                    <div class="skill-pill">
+                        <div class="skill-icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h5>Cyber Security</h5>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 text-center reveal-up stagger-2">
+                    <div class="skill-pill">
+                        <div class="skill-icon-wrap"><i class="fa-solid fa-bug"></i></div>
+                        <h5>Pen Testing</h5>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 text-center reveal-up stagger-3">
+                    <div class="skill-pill">
+                        <div class="skill-icon-wrap"><i class="fa-brands fa-python"></i></div>
+                        <h5>Python</h5>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 text-center reveal-up stagger-4">
+                    <div class="skill-pill">
+                        <div class="skill-icon-wrap"><i class="fa-brands fa-html5"></i></div>
+                        <h5>HTML/CSS/JS</h5>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-6 text-center reveal-up stagger-5">
+                    <div class="skill-pill">
+                        <div class="skill-icon-wrap"><i class="fa-solid fa-network-wired"></i></div>
+                        <h5>Network Analysis</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pentesting Knowledge -->
+    <section id="pentesting" class="content-section position-relative z-2">
+        <div class="container">
+            <div class="text-center mb-5 reveal-up">
+                <div class="badge-glass d-inline-block mb-3">ATTACK METHODOLOGY</div>
+                <h2 class="section-title display-5">Knowledge <span class="text-gradient">Vectors</span></h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-6 reveal-up stagger-1">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-eye"></i></div>
+                        <div class="feature-content">
+                            <h4>Reconnaissance & OSINT</h4>
+                            <p>Information gathering is the crucial first step. I specialize in utilizing passive and
+                                active recon techniques to map out target infrastructure, finding subdomains, open
+                                ports, and exposed digital footprints.</p>
+                            <div class="tech-tags">
+                                <span>Nmap</span><span>Shodan</span><span>Maltego</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-6 reveal-up stagger-2">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-globe"></i></div>
+                        <div class="feature-content">
+                            <h4>Web Application Security</h4>
+                            <p>Deep understanding of OWASP Top 10 vulnerabilities. I actively test for SQL Injections,
+                                Cross-Site Scripting (XSS), CSRF, and misconfigured authentication mechanisms across
+                                complex web platforms.</p>
+                            <div class="tech-tags">
+                                <span>Burp Suite</span><span>OWASP ZAP</span><span>SQLmap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-6 reveal-up stagger-3">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-wifi"></i></div>
+                        <div class="feature-content">
+                            <h4>Network Exploitation</h4>
+                            <p>Analyzing network traffic and discovering misconfigurations. Capable of intercepting
+                                communications, evaluating firewall rules, and identifying weak points in local and
+                                wireless network setups.</p>
+                            <div class="tech-tags">
+                                <span>Wireshark</span><span>Metasploit</span><span>Aircrack-ng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-6 reveal-up stagger-4">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-user-secret"></i></div>
+                        <div class="feature-content">
+                            <h4>Privilege Escalation</h4>
+                            <p>Once a foothold is gained, I employ techniques to bypass restrictions and elevate
+                                privileges. This involves analyzing operating system flaws, kernel exploits, and poor
+                                permission settings on Linux and Windows.</p>
+                            <div class="tech-tags">
+                                <span>LinPEAS</span><span>BloodHound</span><span>Exploit-DB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section position-relative z-2">
+        <div class="container">
+            <div class="text-center mb-5 reveal-up">
+                <div class="badge-glass d-inline-block mb-3">FIELD OPERATIONS</div>
+                <h2 class="section-title display-5">Recent <span class="text-gradient">Exploits</span></h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 reveal-up stagger-1">
+                    <div class="project-glass-card">
+                        <div class="project-header">
+                            <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+                            <div class="links">
+                                <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" class="btn-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="mt-4 mb-3 text-white">Net-Vuln Scanner</h4>
+                        <p class="text-muted small">A highly efficient Python-based port scanner. It rapidly identifies
+                            open network ports and cross-references service banners with the CVE vulnerability database
+                            to flag potential risks instantly.</p>
+                        <ul class="project-tech list-unstyled d-flex flex-wrap gap-2 mt-auto pt-4">
+                            <li>Python</li>
+                            <li>Sockets</li>
+                            <li>NVD API</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 reveal-up stagger-2">
+                    <div class="project-glass-card">
+                        <div class="project-header">
+                            <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+                            <div class="links">
+                                <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="mt-4 mb-3 text-white">Auto-Pwn Toolkit</h4>
+                        <p class="text-muted small">A streamlined Bash toolkit created to automate the tedious initial
+                            phases of Capture The Flag (CTF) challenges. It chains Nmap, Dirb, and FTP checks to compile
+                            a human-readable vulnerability report.</p>
+                        <ul class="project-tech list-unstyled d-flex flex-wrap gap-2 mt-auto pt-4">
+                            <li>Bash</li>
+                            <li>Linux</li>
+                            <li>Nmap</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 reveal-up stagger-3">
+                    <div class="project-glass-card">
+                        <div class="project-header">
+                            <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+                            <div class="links">
+                                <a href="#" class="btn-icon"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="mt-4 mb-3 text-white">Phishing Simulator</h4>
+                        <p class="text-muted small">An educational framework consisting of cloned login pages. Designed
+                            explicitly for authorized enterprise social engineering campaigns to train staff against
+                            credential harvesting attacks.</p>
+                        <ul class="project-tech list-unstyled d-flex flex-wrap gap-2 mt-auto pt-4">
+                            <li>HTML/CSS/JS</li>
+                            <li>PHP</li>
+                            <li>Security Edu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section position-relative z-2">
+        <div class="container text-center">
+            <div class="reveal-up">
+                <div class="badge-glass d-inline-block mb-3">END OF TRANSMISSION</div>
+                <h2 class="section-title display-4 mb-4">Ready to Secure Your <span
+                        class="text-gradient">Infrastructure?</span></h2>
+                <p class="text-light-muted mb-5 mx-auto" style="max-width: 600px;">
+                    Whether you are looking for a penetration tester, need a vulnerability assessment, or have an
+                    opportunity in the cybersecurity space, my inbox is always open.
+                </p>
+                <a href="mailto:mushafpersonal29@gmail.com" class="btn-cyber-primary btn-lg px-5 py-3">
+                    Start Secure Channel <i class="fa-regular fa-envelope ms-2"></i>
+                </a>
+
+                <div class="social-links mt-5 d-flex justify-content-center gap-4">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 position-relative z-2 border-top-glass">
+        <p class="text-muted small mb-0 font-mono">Designed & Built by Mushaf Rasein | &copy; 2026</p>
+    </footer>
+
+    <!-- jQuery & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
